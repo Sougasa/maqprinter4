@@ -846,7 +846,7 @@ main {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .logo-container img {
     width: 150px;
   }
