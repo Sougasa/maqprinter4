@@ -74,8 +74,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   sections.forEach((section) => observer.observe(section));
 
-  // ----- Botão voltar ao topo -----
+  // ----- Shrink header e botão voltar ao topo -----
+  const headerEl = document.querySelector('header');
+
   window.addEventListener('scroll', () => {
+    const isScrolled = window.scrollY > 20;
+    headerEl?.classList.toggle('header--scrolled', isScrolled);
     btnTopo?.classList.toggle('visible', window.scrollY > 400);
   }, { passive: true });
 

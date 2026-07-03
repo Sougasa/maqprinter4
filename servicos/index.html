@@ -5,94 +5,501 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <title>Serviços de Impressoras em São Paulo | Maqprinter</title>
-  <meta name="description" content="Assistência técnica para plotter HP, Epson L3250, impressora térmica, Lexmark, Brother e laser. Conserto com orçamento gratuito — Maqprinter, Lapa/SP." />
-  <meta name="keywords" content="plotter HP conserto, Epson L3250 manutenção, impressora térmica, Lexmark São Paulo, Brother assistência, impressora laser" />
+  <title>
+    Assistência Técnica em Impressoras e Plotters em São Paulo | Maqprinter
+  </title>
+
+  <meta
+    name="description"
+    content="Assistência técnica especializada em impressoras, multifuncionais, plotters e equipamentos corporativos em São Paulo: HP, Epson, Brother, Canon, Lexmark, Zebra, Elgin, Bematech e mais. Conserto, manutenção preventiva e corretiva, instalação e suporte. Orçamento gratuito."
+  />
+
+  <meta
+    name="keywords"
+    content="
+      assistência técnica impressora São Paulo,
+      conserto impressora HP Lapa,
+      manutenção Epson L3250,
+      conserto plotter HP,
+      assistência Brother SP,
+      conserto impressora laser,
+      assistência impressora térmica,
+      manutenção impressoras para empresas,
+      conserto impressora Epson,
+      conserto impressora Canon,
+      conserto impressora Lexmark,
+      manutenção plotter grande formato,
+      assistência técnica Zebra,
+      assistência Elgin,
+      assistência Bematech,
+      impressão grande formato São Paulo,
+      conserto multifuncional,
+      manutenção impressora tanque de tinta,
+      suporte técnico impressora rede,
+      configuração impressora Wi-Fi
+    "
+  />
+
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://www.maqprinter.com.br/servicos/" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Serviços de Impressoras — Maqprinter" />
-  <meta property="og:description" content="Conserto e manutenção de plotters, impressoras Epson, térmicas, Lexmark, Brother e laser em São Paulo." />
+  <meta property="og:title" content="Serviços de Impressoras e Plotters — Maqprinter" />
+  <meta
+    property="og:description"
+    content="Conserto e manutenção de plotters HP, Epson, impressoras térmicas, Lexmark, Brother, Canon, laser e equipamentos corporativos em São Paulo."
+  />
   <meta property="og:url" content="https://www.maqprinter.com.br/servicos/" />
   <meta property="og:locale" content="pt_BR" />
+  <meta property="og:image" content="https://www.maqprinter.com.br/assets/img/cover-servicos.jpg" />
 
   <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
   <link rel="stylesheet" href="../assets/css/servicos.css" />
+
   <script src="https://unpkg.com/lucide@latest" defer></script>
 
+  <!-- Schema: LocalBusiness + Service + FAQPage (será completado nas partes finais) -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "serviceType": "Assistência Técnica em Impressoras",
-    "provider": {
-      "@type": "LocalBusiness",
-      "name": "Maqprinter",
-      "url": "https://www.maqprinter.com.br"
-    },
-    "areaServed": "São Paulo, BR",
-    "description": "Conserto e manutenção de plotters HP, Epson, impressoras térmicas, Lexmark, Brother e laser."
-  }
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "name": "Maqprinter",
+          "url": "https://www.maqprinter.com.br",
+          "telephone": "+551100000000",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rua example, 123 – Lapa",
+            "city": "São Paulo",
+            "state": "SP",
+            "postalCode": "05000-000",
+            "country": "BR"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "-23.5505",
+            "longitude": "-46.6333"
+          },
+          "areaServed": ["São Paulo", "Osasco", "Alphaville", "Barra Funda", "Perdizes", "Pompéia", "Pinheiros", "Vila Leopoldina", "Jaguaré"],
+          "image": "https://www.maqprinter.com.br/assets/img/logo-maqprinter.png",
+          "description": "Assistência técnica especializada em impressoras, plotters e equipamentos corporativos em São Paulo."
+        },
+        {
+          "@type": "Service",
+          "serviceType": "Assistência Técnica em Impressoras e Plotters",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "Maqprinter",
+            "url": "https://www.maqprinter.com.br"
+          },
+          "areaServed": "São Paulo, BR",
+          "description": "Conserto, manutenção preventiva e corretiva, instalação e suporte técnico para impressoras HP, Epson, Brother, Canon, Lexmark, Zebra, Elgin, Bematech, Ricoh, Kyocera e plotters de grande formato."
+        }
+      ]
+    }
   </script>
 </head>
+
 <body>
+  <header class="topbar">
+    <button
+      id="toggleSidebar"
+      class="icon-button"
+      aria-label="Abrir ou fechar menu lateral"
+      aria-expanded="true"
+      aria-controls="sidebar"
+    >
+      <i data-lucide="menu"></i>
+    </button>
 
-<header class="topbar">
-  <button id="toggleSidebar" class="icon-button" aria-label="Abrir ou fechar menu lateral" aria-expanded="true" aria-controls="sidebar">
-    <i data-lucide="menu"></i>
-  </button>
+    <button
+      id="menuRedirectButton"
+      class="icon-button tooltip"
+      aria-label="Voltar para o site principal"
+    >
+      <i data-lucide="arrow-left"></i>
+      <span class="tooltip-text">Voltar para o site principal</span>
+    </button>
 
-  <button id="menuRedirectButton" class="icon-button tooltip" aria-label="Voltar para o site principal">
-    <i data-lucide="arrow-left"></i>
-    <span class="tooltip-text">Voltar para o site principal</span>
-  </button>
+    <h1>Serviços Maqprinter</h1>
 
-  <h1>Serviços Maqprinter</h1>
+    <button
+      id="toggleTheme"
+      class="icon-button"
+      aria-label="Alternar tema claro ou escuro"
+    >
+      <i data-lucide="moon"></i>
+    </button>
+  </header>
 
-  <button id="toggleTheme" class="icon-button" aria-label="Alternar tema claro ou escuro">
-    <i data-lucide="moon"></i>
-  </button>
-</header>
+  <div class="container">
+    <!-- Sidebar (continua com os mesmos links, mas poderá ser ampliada nas próximas partes) -->
+    <nav class="sidebar" id="sidebar" aria-label="Menu de serviços especializados">
+      <h2>Serviços</h2>
+      <ul>
+        <li><i data-lucide="printer"></i> <a href="#plotter" data-key="plotter">Plotter HP</a></li>
+        <li><i data-lucide="printer"></i> <a href="#epson" data-key="epson">Epson L3250</a></li>
+        <li><i data-lucide="receipt-text"></i> <a href="#termica" data-key="termica">Impressora Térmica</a></li>
+        <li><i data-lucide="printer"></i> <a href="#laser" data-key="laser">Impressora Laser</a></li>
+        <li><i data-lucide="wrench"></i> <a href="#conserto" data-key="conserto">Conserto</a></li>
+        <li><i data-lucide="zap"></i> <a href="#manutencao" data-key="manutencao">Manutenção Preventiva</a></li>
+      </ul>
 
-<div class="container">
-  <nav class="sidebar" id="sidebar" aria-label="Menu de serviços especializados">
-    <h2>Serviços</h2>
-    <ul>
-      <li><i data-lucide="printer"></i> <a href="#plotter" data-key="plotter">Plotter HP</a></li>
-      <li><i data-lucide="printer"></i> <a href="#epson" data-key="epson">Epson L3250</a></li>
-      <li><i data-lucide="receipt-text"></i> <a href="#termica" data-key="termica">Impressora Térmica</a></li>
-    </ul>
+      <h2>Marcas</h2>
+      <ul>
+        <li><i data-lucide="scan-barcode"></i> <a href="#hp" data-key="hp">HP</a></li>
+        <li><i data-lucide="scan-text"></i> <a href="#epson-marca" data-key="epson">Epson</a></li>
+        <li><i data-lucide="scan-text"></i> <a href="#brother" data-key="brother">Brother</a></li>
+        <li><i data-lucide="scan-text"></i> <a href="#canon" data-key="canon">Canon</a></li>
+        <li><i data-lucide="scan-text"></i> <a href="#lexmark" data-key="lexmark">Lexmark</a></li>
+        <li><i data-lucide="scan-text"></i> <a href="#thermics" data-key="termicas">Térmicas (Zebra, Elgin, Bematech)</a></li>
+      </ul>
 
-    <h2>Marcas</h2>
-    <ul>
-      <li><i data-lucide="scan-barcode"></i> <a href="#lexmark" data-key="lexmark">Lexmark</a></li>
-      <li><i data-lucide="scan-text"></i> <a href="#brother" data-key="brother">Brother</a></li>
-    </ul>
+      <h2>Serviços Técnicos</h2>
+      <ul>
+        <li><i data-lucide="wrench"></i> <a href="#conserto" data-key="conserto">Conserto</a></li>
+        <li><i data-lucide="zap"></i> <a href="#manutencao" data-key="manutencao">Manutenção Preventiva</a></li>
+        <li><i data-lucide="settings-2"></i> <a href="#instalacao" data-key="instalacao">Instalação e Configuração</a></li>
+        <li><i data-lucide="building-2"></i> <a href="#empresas" data-key="empresas">Atendimento Empresarial</a></li>
+      </ul>
+    </nav>
 
-    <h2>Serviços Técnicos</h2>
-    <ul>
-      <li><i data-lucide="wrench"></i> <a href="#conserto" data-key="conserto">Conserto</a></li>
-      <li><i data-lucide="zap"></i> <a href="#laser" data-key="laser">Impressora Laser</a></li>
-    </ul>
-  </nav>
+    <!-- MAIN – Começa aqui o conteúdo expandido -->
+    <main class="content" id="content">
 
-  <main class="content" id="content">
-    <h2>Bem-vindo</h2>
-    <p>Selecione uma opção no menu para conhecer nossos serviços especializados de assistência técnica em impressoras.</p>
-    <p class="content-cta">
-      <a href="../index.html#contato" class="btn-cta">Solicitar orçamento gratuito</a>
-    </p>
-  </main>
-</div>
+      <!-- HERO -->
+      <section class="hero" id="hero">
+        <h2>
+          Assistência Técnica Especializada em Impressoras e Plotters em São Paulo
+        </h2>
 
-<footer class="footer">
-  <p>© 2025 Maqprinter — Todos os direitos reservados.</p>
-</footer>
+        <p class="hero-sub">
+          A Maqprinter oferece assistência técnica especializada para impressoras,
+          multifuncionais, plotters e equipamentos corporativos em São Paulo e região.
+          Realizamos diagnóstico completo, manutenção preventiva, manutenção corretiva,
+          limpeza interna, troca de peças, configuração de rede, instalação de drivers,
+          atualização de firmware e suporte técnico para empresas e residências.
+        </p>
 
-<script src="../assets/js/servicos.js" defer></script>
+        <p>
+          Trabalhamos com as principais marcas: HP, Epson, Brother, Canon, Lexmark,
+          Zebra, Elgin, Bematech, Argox, Ricoh, Kyocera, Xerox, Samsung e mais.
+          Se sua impressora não liga, está cometendo erros de cartucho, tinta,
+          cabeçote entupido, atolamento de papel, impressão em branco, falhas,
+          linhas na impressão, problemas de Wi-Fi, rede ou USB, nós resolvemos.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn-cta" href="../index.html#contato">
+            Solicitar orçamento gratuito
+          </a>
+          <a class="btn-secondary" href="#como-funciona">
+            Como funciona o atendimento
+          </a>
+        </div>
+      </section>
+
+      <!-- ESTADÍSTICAS / NÚMEROS -->
+      <section class="stats" id="stats">
+        <h2>Por que a Maqprinter é referência em assistência de impressoras?</h2>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-number">+10</div>
+            <div class="stat-label">
+              Anos de experiência em assistência técnica de impressoras e plotters
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number">+15.000</div>
+            <div class="stat-label">
+              Equipamentos reparados com sucesso em São Paulo e região
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number">+50</div>
+            <div class="stat-label">
+              Modelos de impressoras e plotters atendidos continuamente
+            </div>
+          </div>
+
+          <div class="stat-card">
+            <div class="stat-number">98%</div>
+            <div class="stat-label">
+              Taxa de aprovação dos clientes após o reparo
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DIFERENCIAIS -->
+      <section class="differentials" id="diferenciais">
+        <h2>Por que escolher a Maqprinter?</h2>
+
+        <p>
+          Na Maqprinter, unimos experiência técnica, agilidade no atendimento e
+          compromisso com qualidade para garantir que sua impressora ou plotter
+          volte a funcionar com o máximo de desempenho. Nosso diferencial está
+          em transformar um serviço muitas vezes visto como “burocrático” em
+          uma experiência transparente e confiável.
+        </p>
+
+        <div class="differentials-grid">
+          <div class="diff-item">
+            <i data-lucide="award"></i>
+            <h3>Atendimento especializado</h3>
+            <p>
+              Técnicos treinados especificamente para impressoras, multifuncionais
+              e plotters, com conhecimento profundo de HP, Epson, Brother, Canon,
+              Lexmark e equipamentos térmicos.
+            </p>
+          </div>
+
+          <div class="diff-item">
+            <i data-lucide="users"></i>
+            <h3>Técnicos experientes</h3>
+            <p>
+              Equipe com anos de atuação em assistência técnica, capaz de identificar
+              defeitos complexos em placas, fusores, cabeçotes, sensores e motores.
+            </p>
+          </div>
+
+          <div class="diff-item">
+            <i data-lucide="receipt"></i>
+            <h3>Orçamento gratuito e sem compromisso</h3>
+            <p>
+              Realizamos diagnóstico completo e enviamos orçamento detalhado antes
+              de qualquer reparo, com transparência sobre peças e serviços.
+            </p>
+          </div>
+
+          <div class="diff-item">
+            <i data-lucide="shield-check"></i>
+            <h3>Garantia do serviço</h3>
+            <p>
+              Todos os nossos reparos são garantidos, assegurando que o equipamento
+              permaneça funcionando corretamente após a manutenção.
+            </p>
+          </div>
+
+          <div class="diff-item">
+            <i data-lucide="package"></i>
+            <h3>Peças de qualidade</h3>
+            <p>
+              Utilizamos peças originais ou de alta compatibilidade, priorizando
+              durabilidade e desempenho do equipamento.
+            </p>
+          </div>
+
+          <div class="diff-item">
+            <i data-lucide="building"></i>
+            <h3>Atendimento para empresas</h3>
+            <p>
+              Soluções completas para escritórios, indústrias, hospitais, escolas,
+              condomínios e comércio, com contratos de manutenção e suporte rápido.
+            </p>
+          </div>
+
+          <div class="diff-item">
+            <i data-lucide="home"></i>
+            <h3>Equipamentos domésticos e corporativos</h3>
+            <p>
+              Reparamos impressoras pequenas para uso residencial e equipamentos
+              robustos para ambientes corporativos de alto volume.
+            </p>
+          </div>
+
+          <div class="diff-item">
+            <i data-lucide="clock"></i>
+            <h3>Agilidade no atendimento</h3>
+            <p>
+              Processos otimizados para diagnóstico, orçamento e reparo, reduzindo
+              o tempo de espera e mantendo sua operação funcionando.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- INTRODUÇÃO EXTENSA -->
+      <section class="intro" id="intro">
+        <h2>Assistência técnica completa para impressoras e plotters em São Paulo</h2>
+
+        <p>
+          Se você trabalha com impressão, seja em um escritório, loja, indústria,
+          escola ou residência, sabe que uma impressora ou plotter parada pode
+          causar diversos problemas: documentos atrasados, notas fiscais não
+          emitidas, relatórios incompletos, perda de produtividade e até prejuízos
+          financeiros. Na Maqprinter, entendemos essa urgência e oferecemos
+          assistência técnica rápida, eficiente e transparente para devolver
+          immediately a operacionalidade do seu equipamento.
+        </p>
+
+        <p>
+          Nossa atuação é focada em São Paulo e região, com atendimento целиado
+          para clientes da Lapa, Barca Funda, Perdizes, Pompéia, Pinheiros,
+          Vila Leopoldina, Jaguaré, Osasco, Alphaville, Centro e diversas outras
+          regiões da Zona Oeste, Norte e Sul. Trabalhamos com impressoras
+          inkjet, laser, multifuncionais, plotters de grande formato, impressoras
+          térmicas fiscais e de rótulos, scanners e equipamentos corporativos
+          de alto volume.
+        </p>
+
+        <p>
+          Independente do problema: se sua impressora não liga, apresenta erros
+          de cartucho ou tinta, cabeçote entupido, atolamento de papel, impressão
+          em branco, falhas, linhas na impressão, messaggi de firmware, problemas
+          de comunicação USB, Wi-Fi ou rede, nós realizamos diagnóstico técnico
+          preciso e propomos a solução mais adequada, seja reparo, manutenção
+          preventiva ou, quando necessário, orientação sobre troca de equipamento.
+        </p>
+
+        <h3>Tipos de equipamentos que atendemos</h3>
+
+        <p>
+          Atendemos uma ampla variedade de equipamentos, incluindo:
+        </p>
+
+        <ul>
+          <li>Impressoras inkjet domésticas e corporativas;</li>
+          <li>Impressoras tanque de tinta (Epson L系列, Canon G系列, etc.);</li>
+          <li>Impressoras laser monocromáticas e coloridas;</li>
+          <li>Multifuncionais com scanner, copiadora e, em alguns casos, ADF;</li>
+          <li>Plotters HP DesignJet e outros modelos de grande formato;</li>
+          <li>Impressoras térmicas fiscais (Elgin, Bematech, etc.);</li>
+          <li>Impressoras de rótulos e cupons (Zebra, Argox, etc.);</li>
+          <li>Scanners standalone e multifuncionais;</li>
+          <li>Equipamentos corporativos Ricoh, Kyocera, Xerox, Samsung, Lexmark.</li>
+        </ul>
+
+        <h3>Compromisso com qualidade e transparência</h3>
+
+        <p>
+          Nosso compromisso é com a qualidade do serviço e com a transparência
+          em todo o processo. Antes de iniciar qualquer reparo, realizamos
+          diagnóstico completo e enviamos orçamento gratuito, explicando de forma
+          clara o que precisa ser feito, quais peças serão utilizadas e quanto
+          será necessário investir. Só começamos o trabalho após a aprovação
+          do cliente, sem cobranças surpresa e sem pressão.
+        </p>
+
+        <p class="content-cta">
+          <a href="../index.html#contato" class="btn-cta">
+            Solicitar orçamento gratuito agora
+          </a>
+        </p>
+      </section>
+
+      <!-- COMO FUNCIONA – TIMELINE -->
+      <section class="como-funciona" id="como-funciona">
+        <h2>Como funciona nosso atendimento</h2>
+
+        <p>
+          Nosso processo foi pensado para ser simples, rápido e transparente,
+          permitindo que você saiba exatamente em que etapa está o seu equipamento
+          e o que será necessário para o reparo.
+        </p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-number">1</div>
+            <div class="timeline-content">
+              <h3>Recebemos seu contato</h3>
+              <p>
+                Você entra em contato por telefone, WhatsApp ou site, explicando
+                o problema da impressora ou plotter. Nosso equipe registra todas
+                as informações e já começa a orientar sobre o próximo passo.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-number">2</div>
+            <div class="timeline-content">
+              <h3>Realizamos o diagnóstico</h3>
+              <p>
+                O equipamento é recebido em nossa unidade ou avaliado em campo
+                (quando aplicável). Técnicos especializados realizam teste completo,
+                identificando defeitos elétricos, mecânicos, de firmware e de
+                configuração.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-number">3</div>
+            <div class="timeline-content">
+              <h3>Enviamos orçamento gratuito</h3>
+              <p>
+                Após o diagnóstico, você recebe um orçamento detalhado, com
+                descrição do problema, peças necessárias, serviços envolvidos
+                e valor total. Tudo explicado de forma clara e sem sigilos.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-number">4</div>
+            <div class="timeline-content">
+              <h3>Após aprovação, iniciamos o reparo</h3>
+              <p>
+                Com o orçamento aprovado, nossa equipe executa o reparo planejado,
+                substituindo peças, realizando limpeza, lubrificação, calibração
+                e atualização de firmware, quando necessário.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-number">5</div>
+            <div class="timeline-content">
+              <h3>Executamos testes completos</h3>
+              <p>
+                Antes de liberar o equipamento, realizamos testes de impressão,
+                copiadora, scanner, conexão USB, Wi-Fi e rede, garantindo que
+                tudo está funcionando dentro dos padrões esperados.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-number">6</div>
+            <div class="timeline-content">
+              <h3>Equipamento entregue funcionando</h3>
+              <p>
+                O equipamento é liberado para ocliente, com garantia do serviço
+                realizado. Ficamos disponíveis para dúvidas e suporte pós-serviço,
+                assegurando experiência completa e tranquila.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p class="content-cta">
+          <a href="../index.html#contato" class="btn-cta">
+            Falar com um especialista agora
+          </a>
+        </p>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Footer simples (será completado nas partes finais com mais informações, mapas, schemas etc.) -->
+  <footer class="footer">
+    <p>© 2025 Maqprinter — Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="../assets/js/servicos.js" defer></script>
 </body>
 </html>
