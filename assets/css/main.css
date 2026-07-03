@@ -845,6 +845,17 @@ main {
     display: flex;
   }
 
+.logo-container {
+    flex-shrink: 0;
+}
+
+.logo-container img {
+    width: 220px;
+    min-width: 220px;
+    max-width: 220px;
+    height: auto;
+}
+
   nav {
     position: fixed;
     top: 0;
